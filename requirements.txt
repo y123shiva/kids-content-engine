@@ -1,0 +1,32 @@
+# -----------------------------
+# Stable Diffusion / Image Generation
+# -----------------------------
+diffusers>=0.20.0
+torch>=2.1.0
+torchvision>=0.16.0
+torchaudio>=2.1.0
+
+# -----------------------------
+# Embeddings & Vector Search
+# -----------------------------
+sentence-transformers>=2.2.2
+faiss-cpu>=1.7.4
+
+# -----------------------------
+# LLM / Google Gemini SDK
+# -----------------------------
+google-genai>=0.6.0
+
+# -----------------------------
+# Audio / Video Processing
+# -----------------------------
+pydub>=0.25.1
+ffmpeg-python>=0.2.0
+
+# -----------------------------
+# Web / API
+# -----------------------------
+fastapi>=0.102.0
+uvicorn[standard]>=0.23.0
+httpx>=0.28.0
+

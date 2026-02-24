@@ -1,0 +1,216 @@
+<html><head><title>RAG Evaluation Report</title></head><body><h1>RAG Evaluation Metrics</h1><img src='metrics_plot.png' style='max-width:600px;'><br><br><table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>query</th>
+      <th>mode</th>
+      <th>k</th>
+      <th>topk_results</th>
+      <th>relevant</th>
+      <th>hit</th>
+      <th>precision</th>
+      <th>context_overlap</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>teach counting using ducks</td>
+      <td>faiss</td>
+      <td>3</td>
+      <td>Let's explore Counting Fun with Ducks!, | Can you count the Counting Fun with Ducks with me? | Look! Here is a colorful Counting Fun with Ducks!</td>
+      <td>duck, count</td>
+      <td>1</td>
+      <td>0.666667</td>
+      <td>1.0</td>
+    </tr>
+    <tr>
+      <td>learning colors for kids</td>
+      <td>faiss</td>
+      <td>3</td>
+      <td></td>
+      <td>color, balloon</td>
+      <td>0</td>
+      <td>0.000000</td>
+      <td>0.0</td>
+    </tr>
+    <tr>
+      <td>animal sounds for toddlers</td>
+      <td>faiss</td>
+      <td>3</td>
+      <td></td>
+      <td>animal, sound</td>
+      <td>0</td>
+      <td>0.000000</td>
+      <td>0.0</td>
+    </tr>
+    <tr>
+      <td>numbers with animals</td>
+      <td>faiss</td>
+      <td>3</td>
+      <td>Let's explore Counting Fun with Ducks!, | Look! Here is a colorful Counting Fun with Ducks! | Can you count the Counting Fun with Ducks with me?</td>
+      <td>number, count</td>
+      <td>1</td>
+      <td>0.333333</td>
+      <td>0.5</td>
+    </tr>
+    <tr>
+      <td>bedtime story for kids</td>
+      <td>faiss</td>
+      <td>3</td>
+      <td></td>
+      <td>sleep, story</td>
+      <td>0</td>
+      <td>0.000000</td>
+      <td>0.0</td>
+    </tr>
+    <tr>
+      <td>teach counting using ducks</td>
+      <td>faiss</td>
+      <td>5</td>
+      <td>Let's explore Counting Fun with Ducks!, | Can you count the Counting Fun with Ducks with me? | Look! Here is a colorful Counting Fun with Ducks! | Great job! See you next time!</td>
+      <td>duck, count</td>
+      <td>1</td>
+      <td>0.500000</td>
+      <td>1.0</td>
+    </tr>
+    <tr>
+      <td>learning colors for kids</td>
+      <td>faiss</td>
+      <td>5</td>
+      <td>Look! Here is a colorful Counting Fun with Ducks!</td>
+      <td>color, balloon</td>
+      <td>1</td>
+      <td>1.000000</td>
+      <td>0.5</td>
+    </tr>
+    <tr>
+      <td>animal sounds for toddlers</td>
+      <td>faiss</td>
+      <td>5</td>
+      <td></td>
+      <td>animal, sound</td>
+      <td>0</td>
+      <td>0.000000</td>
+      <td>0.0</td>
+    </tr>
+    <tr>
+      <td>numbers with animals</td>
+      <td>faiss</td>
+      <td>5</td>
+      <td>Let's explore Counting Fun with Ducks!, | Look! Here is a colorful Counting Fun with Ducks! | Can you count the Counting Fun with Ducks with me? | Great job! See you next time!</td>
+      <td>number, count</td>
+      <td>1</td>
+      <td>0.250000</td>
+      <td>0.5</td>
+    </tr>
+    <tr>
+      <td>bedtime story for kids</td>
+      <td>faiss</td>
+      <td>5</td>
+      <td>Let's explore Counting Fun with Ducks!,</td>
+      <td>sleep, story</td>
+      <td>0</td>
+      <td>0.000000</td>
+      <td>0.0</td>
+    </tr>
+    <tr>
+      <td>teach counting using ducks</td>
+      <td>keyword</td>
+      <td>3</td>
+      <td>Let's explore Counting Fun with Ducks!, | Look! Here is a colorful Counting Fun with Ducks! | Can you count the Counting Fun with Ducks with me?</td>
+      <td>duck, count</td>
+      <td>1</td>
+      <td>0.666667</td>
+      <td>1.0</td>
+    </tr>
+    <tr>
+      <td>learning colors for kids</td>
+      <td>keyword</td>
+      <td>3</td>
+      <td>|  |</td>
+      <td>color, balloon</td>
+      <td>0</td>
+      <td>0.000000</td>
+      <td>0.0</td>
+    </tr>
+    <tr>
+      <td>animal sounds for toddlers</td>
+      <td>keyword</td>
+      <td>3</td>
+      <td>|  |</td>
+      <td>animal, sound</td>
+      <td>0</td>
+      <td>0.000000</td>
+      <td>0.0</td>
+    </tr>
+    <tr>
+      <td>numbers with animals</td>
+      <td>keyword</td>
+      <td>3</td>
+      <td>Let's explore Counting Fun with Ducks!, | Look! Here is a colorful Counting Fun with Ducks! | Can you count the Counting Fun with Ducks with me?</td>
+      <td>number, count</td>
+      <td>1</td>
+      <td>0.333333</td>
+      <td>0.5</td>
+    </tr>
+    <tr>
+      <td>bedtime story for kids</td>
+      <td>keyword</td>
+      <td>3</td>
+      <td></td>
+      <td>sleep, story</td>
+      <td>0</td>
+      <td>0.000000</td>
+      <td>0.0</td>
+    </tr>
+    <tr>
+      <td>teach counting using ducks</td>
+      <td>keyword</td>
+      <td>5</td>
+      <td>Let's explore Counting Fun with Ducks!, | Look! Here is a colorful Counting Fun with Ducks! | Can you count the Counting Fun with Ducks with me? | Great job! See you next time!</td>
+      <td>duck, count</td>
+      <td>1</td>
+      <td>0.500000</td>
+      <td>1.0</td>
+    </tr>
+    <tr>
+      <td>learning colors for kids</td>
+      <td>keyword</td>
+      <td>5</td>
+      <td>|  |  |</td>
+      <td>color, balloon</td>
+      <td>0</td>
+      <td>0.000000</td>
+      <td>0.0</td>
+    </tr>
+    <tr>
+      <td>animal sounds for toddlers</td>
+      <td>keyword</td>
+      <td>5</td>
+      <td>|  |  |</td>
+      <td>animal, sound</td>
+      <td>0</td>
+      <td>0.000000</td>
+      <td>0.0</td>
+    </tr>
+    <tr>
+      <td>numbers with animals</td>
+      <td>keyword</td>
+      <td>5</td>
+      <td>Let's explore Counting Fun with Ducks!, | Look! Here is a colorful Counting Fun with Ducks! | Can you count the Counting Fun with Ducks with me? | Great job! See you next time! |</td>
+      <td>number, count</td>
+      <td>1</td>
+      <td>0.250000</td>
+      <td>0.5</td>
+    </tr>
+    <tr>
+      <td>bedtime story for kids</td>
+      <td>keyword</td>
+      <td>5</td>
+      <td></td>
+      <td>sleep, story</td>
+      <td>0</td>
+      <td>0.000000</td>
+      <td>0.0</td>
+    </tr>
+  </tbody>
+</table></body></html>
