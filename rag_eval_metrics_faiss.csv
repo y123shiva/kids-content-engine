@@ -1,0 +1,6 @@
+query,recall@k,precision@k,context_overlap,mode
+teach counting using ducks,1,0.4,0.047619047619047616,faiss
+learning colors for kids,1,0.2,0.0,faiss
+animal sounds for toddlers,0,0.0,0.0,faiss
+numbers with animals,1,0.2,0.047619047619047616,faiss
+bedtime story for kids,0,0.0,0.0,faiss

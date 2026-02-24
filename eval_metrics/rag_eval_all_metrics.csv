@@ -1,0 +1,21 @@
+query,mode,k,topk_results,relevant,hit,precision,overlap
+teach counting using ducks,faiss,3,"Let's explore Counting Fun with Ducks!, (0.62), Can you count the Counting Fun with Ducks with me? (0.67), Look! Here is a colorful Counting Fun with Ducks! (0.69)","duck, count",1,0.6666666666666666,1.0
+learning colors for kids,faiss,3,,"color, balloon",0,0.0,0.0
+animal sounds for toddlers,faiss,3,,"animal, sound",0,0.0,0.0
+numbers with animals,faiss,3,"Let's explore Counting Fun with Ducks!, (1.05), Look! Here is a colorful Counting Fun with Ducks! (1.09), Can you count the Counting Fun with Ducks with me? (1.13)","number, count",1,0.3333333333333333,0.5
+bedtime story for kids,faiss,3,,"sleep, story",0,0.0,0.0
+teach counting using ducks,faiss,5,"Let's explore Counting Fun with Ducks!, (0.62), Can you count the Counting Fun with Ducks with me? (0.67), Look! Here is a colorful Counting Fun with Ducks! (0.69), Great job! See you next time! (0.80)","duck, count",1,0.5,1.0
+learning colors for kids,faiss,5,Look! Here is a colorful Counting Fun with Ducks! (1.45),"color, balloon",1,1.0,0.5
+animal sounds for toddlers,faiss,5,,"animal, sound",0,0.0,0.0
+numbers with animals,faiss,5,"Let's explore Counting Fun with Ducks!, (1.05), Look! Here is a colorful Counting Fun with Ducks! (1.09), Can you count the Counting Fun with Ducks with me? (1.13), Great job! See you next time! (1.16)","number, count",1,0.25,0.5
+bedtime story for kids,faiss,5,"Let's explore Counting Fun with Ducks!, (1.41)","sleep, story",0,0.0,0.0
+teach counting using ducks,keyword,3,"Let's explore Counting Fun with Ducks!, (0.00), Look! Here is a colorful Counting Fun with Ducks! (0.00), Can you count the Counting Fun with Ducks with me? (0.00)","duck, count",1,0.6666666666666666,1.0
+learning colors for kids,keyword,3,"nan (0.00), nan (0.00), nan (0.00)","color, balloon",0,0.0,0.0
+animal sounds for toddlers,keyword,3,"nan (0.00), nan (0.00), nan (0.00)","animal, sound",0,0.0,0.0
+numbers with animals,keyword,3,"Let's explore Counting Fun with Ducks!, (0.00), Look! Here is a colorful Counting Fun with Ducks! (0.00), Can you count the Counting Fun with Ducks with me? (0.00)","number, count",1,0.3333333333333333,0.5
+bedtime story for kids,keyword,3,,"sleep, story",0,0.0,0.0
+teach counting using ducks,keyword,5,"Let's explore Counting Fun with Ducks!, (0.00), Look! Here is a colorful Counting Fun with Ducks! (0.00), Can you count the Counting Fun with Ducks with me? (0.00), Great job! See you next time! (0.00)","duck, count",1,0.5,1.0
+learning colors for kids,keyword,5,"nan (0.00), nan (0.00), nan (0.00), nan (0.00)","color, balloon",0,0.0,0.0
+animal sounds for toddlers,keyword,5,"nan (0.00), nan (0.00), nan (0.00), nan (0.00)","animal, sound",0,0.0,0.0
+numbers with animals,keyword,5,"Let's explore Counting Fun with Ducks!, (0.00), Look! Here is a colorful Counting Fun with Ducks! (0.00), Can you count the Counting Fun with Ducks with me? (0.00), Great job! See you next time! (0.00), nan (0.00)","number, count",1,0.2,0.5
+bedtime story for kids,keyword,5,,"sleep, story",0,0.0,0.0

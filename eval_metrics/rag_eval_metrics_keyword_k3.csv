@@ -1,0 +1,6 @@
+query,mode,k,topk_results,relevant,hit,precision,context_overlap
+teach counting using ducks,keyword,3,"Let's explore Counting Fun with Ducks!, | Look! Here is a colorful Counting Fun with Ducks! | Can you count the Counting Fun with Ducks with me?","duck, count",1,0.6666666666666666,1.0
+learning colors for kids,keyword,3, |  | ,"color, balloon",0,0.0,0.0
+animal sounds for toddlers,keyword,3, |  | ,"animal, sound",0,0.0,0.0
+numbers with animals,keyword,3,"Let's explore Counting Fun with Ducks!, | Look! Here is a colorful Counting Fun with Ducks! | Can you count the Counting Fun with Ducks with me?","number, count",1,0.3333333333333333,0.5
+bedtime story for kids,keyword,3,,"sleep, story",0,0.0,0.0
